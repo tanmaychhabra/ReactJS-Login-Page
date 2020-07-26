@@ -1,9 +1,10 @@
 import React from "react"
 import userDetails from "./userDetails"
+import UserDetails from "./userDetails.js"
 
 const RightPanel = () =>{
     return(
-        <h1>Hello Right Panel</h1>
+        <UserDetails />
     )
 }
 
