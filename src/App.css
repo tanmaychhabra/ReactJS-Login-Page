@@ -9,8 +9,6 @@
 }
 
 .FormBasic{
-  background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
   margin: 10px;
   font-size: 14px;
 }
@@ -27,7 +25,8 @@
 }
 
 .form-signin .btn {
-  align-self: center;
+  margin-left: auto;
+    margin-right: auto;
   align-items: center;
   width: 50%;
   font-size: 120%;
@@ -39,4 +38,15 @@
   background-color: black;
   text-decoration-color: azure;
   color: aliceblue;
+}
+
+.card-signin {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  height: 100vh;
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  align-content: center;
+  text-align: center;
 }

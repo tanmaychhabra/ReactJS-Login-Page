@@ -4,7 +4,7 @@ import Tab from "react-bootstrap/Tab"
 const Image = props =>{
     return(
         <div>
-           <img src = {props.src} title = {props.title}/>
+           <img src = {props.src} title = {props.title} style = {{height: "100vh"}}/>
         </div>
 
     )
